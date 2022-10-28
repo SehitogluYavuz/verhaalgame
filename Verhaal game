@@ -1,0 +1,81 @@
+name = input('Enter your name! ')
+print(f'Hallo {name}! welkom ')
+start = input('start het spel of sluit het af?')
+if start == 'start':
+    print("goed laten we snel gaan begginen")
+    setting = input("Het verhaal speelt zich af in Egypte 1963 (type doorgaan om door te gaan) ")
+else:
+    print("ok bye bye")
+    quit() 
+
+if setting == "doorgaan":
+    print("je bent in Egypte in 1963 jij bent Amir Adal en leeft al 17 jaar met je opa en op een dag word jouw dorp aangevallen")
+    response = input ("je opa is er niet van plan om te vluchten maar jij weet dat hij het niet gaat overleven wat doe je nu (laat hem achter en VLUCHT of BLIJF met hem en vecht) ")
+    if response == "vlucht":
+        print("je geeft je opa een laatste knuffel en rent zo snel mogelijk weg einde 1")
+    elif response == "blijf":  
+        print("Je grijpt de zwaard onder jouw bed en rent naar buite vorvolgens staan de vijanden voor je neus je steekt hem met jouw zwaard en begint te rennen opeens zie je dat er een groep egyptische mensen die ook aan het strijden zijn voor hun land je loopt naar het groep toe")
+ 
+
+print("je vraagt hun wat het plan is en hun zeggen dat er geen plan is en dat jullie er gewoon op af gaan rennen dat vind jij niet slim")
+response = input ("ga je ALLEEN of BLIJF je met de groep ")
+if response == "alleen":
+    print("je klimt het berg op om hun leider te vinden")
+elif response == "blijf":
+    print("Jullie begginnen te schreeuwen en te rennen naar het vijand en TUURLIJK gaan jullie dood einde 2")
+
+print("nu ben je alleen en je weet dat iedereen die jij kent dood is je staat er alleen voor en besluit om te vluchten je rent zo snel mogelijk naar het huis van je vriend je vriend is een piloot")
+response = input ("je komt bij het huis van je vriend en vraagt hem of hij jouw kan laten vliegen naar een ander land en toevallig moest hij naar Amerika voor een piloots event en hij vraagt of je mee wil en jij vind amerika te ver maar hebt geen ander keuze dus gaat maar mee de volgende avond zijn jullie in Amerika nu moet je goed verstoppen anders word je gepakt door de politie want je bent iligaal in Ameirika nu maak je een keuze of je neemt het risico en KLEED JE OM je als een event mederwerker of je VLUCHT naar het stad om daar een niewe leven te starten ")
+if response == "vlucht":
+    print("je steelt gaat naar het stad en start daar een nieuwe leven einde 3")
+elif response == "kleed je om":
+    print("je gaat stiekem naar het kleed kamer en vervolgens vraagt een personeel wie jij bent en omdat jij geen engels kan kan jij daar geen antwoord op geven vervolgens haalt de personeel de politie erbij en komen zij erachter dat jij iligaal in het land ben jij probeert weg te rennen tijdens het weg rennen sla je een politie agent met een fles die je daar hebt gevonden en omdat je geweld uitvoert tegen een agent krijg je cel straf voor 4 maanden ")
+
+print("je zit al inmiddels 3 maanden in het gevangenis, nu is het tijd om te eten en jij hoort dat een groep gevangene een opstand willen starten maar jij wilt dat niet want je bent over 24 dagen vrij")
+response = input ("VERTEL je dit plan aan de agenten of blijf je STIL")
+if response == "Vertel":
+    print("een andere gevanene heeft je hoort dat jij het vertelt aan de agenten en vertelt dit aan zijn groep een paar dagen later word je doodgesgtoken in de gang")
+elif response == "stil":
+    print("Je wacht op het dag dat het opstand gaat gebeuren na 7 dagen heb je een pakketje op je bed je opent het en ziet een mes vervolgens komen de agent binnen stomen om een controle te doen jij weet dat dit een plan was van de groep gevangene maar je kan er niks tegen doen want je bent in je kamer met een mes in je hand")
+
+print("je zit nu in de problemen maar gelukig heeft de camera gezien dat er iemand in jouw cell kwam om een pakketje te zetten")
+response = input ("Het kwam weer goed en je bent over 18 dagen vrij maar je weet niet wat je moet doen als je vrij bent je kan altijd ILIGAAL geld verdienen of WERKEN bij de supermakrt")
+if response == "werken":
+    print("Je bent eenmaal vrij en werkt al inmiddels 4 maanden als ober bij een cafe maar je vind het best wel saai")
+elif response == "iligaal":
+    print("heb hebt mensen leren kennen die makkelijk aan geld komen en jij werkt nu voor hun maar je wilt eigenlijk je eigen baas zijn")
+
+print("je gaat een overval plegen maar dat kan niet alleen dus je bent stiekem aan het zoeken naar mensen die dit willen doen vervolgens heb je een paar mensen gevonden en jullie hebben afgespoken om over 3 dagen te beginnen")
+response = input ("Het is 3 dagen later jullie doen de maskers op en stroomen naar binnen en schreuwen WIE NIET OP DE GORND LIGT GAAT DOOD 20 minuten later hebben jullie al het geld en zitten in een caravan je bent van plan om al de mannen te doden zodat jij al het geld hebt ga je dit DOEN of NIET")
+if response == "doen":
+    print("jullie zijn inmiddels ontsnapt van de politie je parkeert je caravan en zegt dat je naar de wc moet vervolgens stappen de andere ook uit het caravan voor een frisse lucht en een voor een vermoord jij de mannen vervolgens rij je zo snel mogelijk weg met je caravan")
+elif response == "niet":
+    print("jullie zijn ontsnapt en je bent in een veilige buurt en vervolgens rijdt een motor langs en begint op jouw te schieten hij heeft je geraakt in je hart en ben jij dood einde 4")
+
+print("je bent ontsnapt je bent nu ben je heel rijk en besluit om aan te sluiten bij de mafia")
+response = input ("het is 5 jaar later en jij bent een van de machtigste maffia bazen van Amerika en hebt veel vijanden je besluit om hun uit te schakelen maar eigenlijk wil je stoppen STOP / VAL AAN")
+if response == "val aan":
+    print("Je overleid tijdens het gevecht einde 5")
+elif response == "stop":
+    print("je wilt een nieuwe leven beginnen en dat wil je doen in je moeder land Egypte dus je gaat teurg")
+
+print("je bent nu al 2 jaar in Egypte en je voelt je niet zo lekker je vrienden raaden jouw aan om naar de dokter te gaan")
+response = input ("GA je naar de dokter of LAAT je het zitten")
+if response == "ga":
+    print("je gaat naar de dokter en komt er achter dat je een ernstige ziekte hebt maar gellukig kwam je zo vroeg ")
+elif response == "laat":
+    print("je word erger ziek en overleid door je ziekte einde 6")
+
+print("Je vijanden van Amerika zijn in Egypte om jouw te vermoorden maar jij ligt nog ziek in bed dus stuurt een paar mannen om hun uit te schakelen")
+response = input ("")
+if response == "":
+    print("")
+elif response == "":
+    print("")
+
+print("")
+response = input ("")
+if response == "":
+    print("")
+elif response == "":
+    print("")
